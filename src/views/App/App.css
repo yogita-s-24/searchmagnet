@@ -1,0 +1,8 @@
+.input-box{
+    border: 2px solid #005B40;
+}
+
+::placeholder{
+    color: #005B40;
+    font-size: 20px;
+}
