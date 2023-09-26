@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import { phonebook } from "./../../data/phonebook";
 import ContactCard from "../../components/ContactCard/ContactCard";
+import Footer from "../../components/Footer/Footer";
 
 function App() {
   const [contact, setContacts] = useState(phonebook);
@@ -74,6 +75,7 @@ function App() {
 
       contact.length === 0 ? <h2 className="text-center mt-2"> No Contact Founds 🤔</h2> : null
       }
+      <Footer/>
     </>
   );
 }
