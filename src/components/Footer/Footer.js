@@ -7,7 +7,7 @@ function Footer() {
     <div>
 <footer className="footer sticky-bottom">
     <div className='container'>
-    <p className='footer-title'>Created By || @Yogita Shete <a href = "https://github.com/yogita-s-24/motiveminder"><i className="fa-brands fa-github github-icon"></i></a></p>
+    <p className='footer-title'>Created By || @Yogita Shete . <a href = "https://github.com/yogita-s-24/motiveminder"><i className="fa-brands fa-github github-icon"></i></a></p>
    
         </div>
     </footer>
